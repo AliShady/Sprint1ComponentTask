@@ -19,8 +19,16 @@ export class StoreComponent implements OnInit {
   getProducts(): void {
     var self = this;
     this.storeService.getProducts()
-      .subscribe(function(prods) {
+      .subscribe(function (prods) {
         self.tableData = prods.data;
+        self.tableData = self.tableData.filter(function (element, index, array) {
+          return element.sellerName === 'Omar Elkilany' ||
+            element.sellerName === 'Lama Ahmed' ||
+            element.sellerName === 'Sarah Ayman' ||
+            element.sellerName === 'Nehal Essam' ||
+            element.sellerName === 'Ali Shady';
+
+        });
       });
   }
 
