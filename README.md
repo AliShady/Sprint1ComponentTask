@@ -5,7 +5,7 @@
 <br />
 </p>
 
-# Mini project - Sprint 1 - Component Task
+# Mini project - Sprint 1 - Individual Task
 
 ## Getting Started
 
@@ -27,11 +27,8 @@ ng serve -o
 - A web page will open on port `4200` 
 
  ## Authors
-  - [Omar Elkilany](https://github.com/OmarElkilany)
   - [Ali Shady](https://github.com/AliShady)
-  - [Nehal Essam](https://github.com/KAREFSN)
-  - [Sarah Ayman](https://github.com/SarahAyman)
-  - [Lama Ahmed](https://github.com/lamaahmed166)
+
 
 ## About
-This repository contains only the component task of sprint 1. A Store module was created, and through this module you can view the products of all the team members.
+This repository contains the Individual Task for sprint 1. 
